@@ -26,6 +26,10 @@
   bottom: 3.125rem;
 }
 
+.about-img {
+  width: 12.5rem;
+}
+
 @media (max-width: 47.5em) {
   .header .social i {
     font-size: 1.875rem;
@@ -33,5 +37,9 @@
 
   .header .roles {
     font-size: 1.125rem !important;
+  }
+
+  .about-content {
+    flex-direction: column;
   }
 }
