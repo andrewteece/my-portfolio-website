@@ -30,6 +30,12 @@
   width: 12.5rem;
 }
 
+.project:hover {
+  transform: scale(1.05);
+  transition: all 0.5s ease-in-out;
+  opacity: 0.8;
+}
+
 @media (max-width: 47.5em) {
   .header .social i {
     font-size: 1.875rem;
